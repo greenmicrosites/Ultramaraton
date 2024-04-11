@@ -3,7 +3,7 @@ let zadani = document.body.innerHTML += "<h3>Zadání:</h3><p>Představte si, ž
 
 const start = 15
 const delka = 12
-let konec = start + delka
+let konec = (start + delka)%24
 
 document.body.innerHTML += konec
 
